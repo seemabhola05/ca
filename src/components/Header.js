@@ -20,9 +20,9 @@ const Header = () => {
         
         <nav className="nav">
           <Link to="/" onClick={() => scrollToSection('hero')}>Home</Link>
-          <a href="#" onClick={() => scrollToSection('menu')}>Digital Menu</a>
+          <button className="nav-link" onClick={() => scrollToSection('menu')}>Digital Menu</button>
           <Link to="/products">Products</Link>
-          <a href="#" onClick={() => scrollToSection('breakfast')}>Breakfast</a>
+          <button className="nav-link" onClick={() => scrollToSection('breakfast')}>Breakfast</button>
           <Link to="/contact">Contact</Link>
         </nav>
 

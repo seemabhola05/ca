@@ -35,10 +35,10 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Quick Links</h3>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-            <a href="#menu">Digital Menu</a>
+            <button className="footer-link" onClick={() => document.getElementById('menu')?.scrollIntoView({ behavior: 'smooth' })}>Digital Menu</button>
             <Link to="/products">Products</Link>
             <Link to="/contact">Contact Us</Link>
-            <a href="#delivery">Delivery Info</a>
+            <button className="footer-link" onClick={() => document.getElementById('delivery')?.scrollIntoView({ behavior: 'smooth' })}>Delivery Info</button>
           </div>
         </div>
 

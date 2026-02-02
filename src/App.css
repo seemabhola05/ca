@@ -71,6 +71,21 @@ body {
   color: var(--coffee-brown);
 }
 
+.nav-link {
+  background: none;
+  border: none;
+  color: var(--text-dark);
+  font-weight: 500;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--coffee-brown);
+}
+
 .header-actions {
   display: flex;
   align-items: center;
@@ -440,6 +455,22 @@ body {
 }
 
 .footer-section a:hover {
+  color: var(--light-gold);
+}
+
+.footer-link {
+  background: none;
+  border: none;
+  color: white;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  text-align: left;
+  padding: 0;
+}
+
+.footer-link:hover {
   color: var(--light-gold);
 }
 
